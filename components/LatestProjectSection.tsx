@@ -23,17 +23,6 @@ export default function LatestProjectSection() {
           Latest Project
         </h2>
         <div className="md:grid md:grid-cols-2 md:gap-12">
-          <div className="mt-8 md:mt-0">
-            <div className="aspect-w-16 aspect-h-9 bg-gray-800 rounded-lg overflow-hidden">
-              <Image
-                src="/placeholder.svg?height=720&width=1280"
-                alt="SIERRA Project Visualization"
-                width={1280}
-                height={720}
-                className="object-cover"
-              />
-            </div>
-          </div>
           <div>
             <h3 className="text-2xl md:text-3xl font-semibold mb-4">SIERRA</h3>
             <p className="text-base md:text-lg mb-6">
